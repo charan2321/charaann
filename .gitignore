@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+*.map
+
+# Replit internals
+.replit
+.replitignore
+.local/
+.agents/
+attached_assets/
+
+# Generated
+pnpm-lock.yaml
